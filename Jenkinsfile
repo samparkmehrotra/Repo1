@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('ECHO') {
             steps {
-                echo("This is the test command after commit")
+                echo("Hey .. we are checking the new pipeline")
             }
 
             
